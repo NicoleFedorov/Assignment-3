@@ -1,0 +1,65 @@
+body {
+    font-family: Dinamit, sans-serif;
+    background: rgb(235, 237, 239);
+    margin-inline-start: 5rem;
+    margin-inline-end: 5rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem; 
+  }
+
+header{
+    margin-inline-start: 2rem;
+    margin-inline-end: 2rem;
+    background-image: url(../images/harvard-gazette.png);
+    background-repeat: no-repeat;
+    padding-inline-start: 15rem;
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(53,57,53);
+    text-decoration: none;
+    text-align: right;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+a:visited{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h2{
+    font-size: 1.2rem;
+    text-decoration: underline; 
+    line-height: 0;
+    color: rgb(164,16,52);
+}
+
+h3{
+    font-style: italic;
+    color: rgb(53,57,53);
+    text-align: right;
+}
+
+section{
+    background-color:white;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+footer{
+    margin: 2rem; 
+    padding-block-start: 1rem;
+    border-top-style: solid;
+    border-top-color: black; 
+    border-top-width: .15rem; 
+}
+
+.date{
+    font-style: italic;
+    line-height: 0rem; 
+}
